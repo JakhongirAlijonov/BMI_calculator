@@ -52,3 +52,20 @@ body {
     width: 100PX;
     border-radius: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .img-section {
+        height: 500px;
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-section img {
+        margin-top: 25px;
+        height: 500px;
+    }
+}
